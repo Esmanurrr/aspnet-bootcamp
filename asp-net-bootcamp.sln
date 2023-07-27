@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OdemeFormu", "OdemeFormu\OdemeFormu.csproj", "{A65CF5F3-F007-4DAF-A9D2-C2166C33264D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Hafta", "1. Hafta", "{19DC7B28-00A8-4A8D-B8AD-1B0B8F0411E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A65CF5F3-F007-4DAF-A9D2-C2166C33264D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A65CF5F3-F007-4DAF-A9D2-C2166C33264D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A65CF5F3-F007-4DAF-A9D2-C2166C33264D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A65CF5F3-F007-4DAF-A9D2-C2166C33264D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A65CF5F3-F007-4DAF-A9D2-C2166C33264D} = {19DC7B28-00A8-4A8D-B8AD-1B0B8F0411E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233C4089-E326-42F5-8BF8-EE02B6A1C6B8}
+	EndGlobalSection
+EndGlobal
