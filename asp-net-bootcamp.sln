@@ -15,9 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeOrnek", "Attribute
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArabaKayitFormu", "ArabaKayitFormu\ArabaKayitFormu.csproj", "{DC2CBF58-E8B9-4AE7-8C4E-9663059D3546}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{0E52717F-2D6D-4429-B0D1-D59082AA74A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodeFirst", "CodeFirst\CodeFirst.csproj", "{0E52717F-2D6D-4429-B0D1-D59082AA74A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BtkAkademiMVC", "BtkAkademiMVC\BtkAkademiMVC.csproj", "{729455C1-BC21-4AB9-9499-D1649D0C097A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BtkAkademiMVC", "BtkAkademiMVC\BtkAkademiMVC.csproj", "{729455C1-BC21-4AB9-9499-D1649D0C097A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
