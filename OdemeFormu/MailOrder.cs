@@ -8,7 +8,7 @@ namespace OdemeFormu
 {
     public class MailOrder : IOdeme
     {
-        public string Ode(string tutar)
+        public string Ode(double tutar)
         {
             return "Mail Order ile " + tutar + " ödendi.";
         }

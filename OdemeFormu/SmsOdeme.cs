@@ -8,7 +8,7 @@ namespace OdemeFormu
 {
     public class SmsOdeme : IOdeme
     {
-        public string Ode(string tutar)
+        public string Ode(double tutar)
         {
             return "Sms ile " + tutar + " ödendi."; ;
         }

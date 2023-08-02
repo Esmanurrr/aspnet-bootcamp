@@ -2,6 +2,10 @@ namespace OdemeFormu
 {
     public partial class Form1 : Form
     {
+        string secilenOdemeTipi;
+        OdemeManager odemeManager;
+        IOdeme iOdeme;
+
         public Form1()
         {
             InitializeComponent();
@@ -14,11 +18,13 @@ namespace OdemeFormu
 
         private void btnOde_Click(object sender, EventArgs e)
         {
+            double tutar = Convert.ToDouble(txtTutar.Text);
             OdemeFactory factory = new OdemeFactory();
-            var odemeInstance = factory.GetInstance(cmbOdemeTipi.SelectedItem.ToString());
+            //polimorfik obje artýk elimizde
+            iOdeme = factory.GetInstance(secilenOdemeTipi);
+            odemeManager = new OdemeManager(iOdeme);
 
-            var odemeManager = new OdemeManager(odemeInstance);
-            lblSonuc.Text = odemeManager.Ode(txtTutar.Text);
+
         }
     }
 }

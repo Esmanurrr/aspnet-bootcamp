@@ -10,7 +10,8 @@ namespace OdemeFormu
     {
         public IOdeme GetInstance(string className)
         {
-            var newClass = System.Reflection.Assembly.GetAssembly(typeof(IOdeme)).CreateInstance(className);
+            //KrediKarti k = new KrediKarti();
+            var newClass = System.Reflection.Assembly.GetAssembly(typeof(IOdeme)).CreateInstance("OdemeFormu." + className);
             return (IOdeme)newClass;
         }
     }

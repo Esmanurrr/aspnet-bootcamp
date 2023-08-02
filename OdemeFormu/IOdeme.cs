@@ -8,7 +8,7 @@ namespace OdemeFormu
 {
     public interface IOdeme
     {
-        string Ode(string tutar);
+        string Ode(double tutar);
 
     }
 }

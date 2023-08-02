@@ -8,7 +8,7 @@ namespace OdemeFormu
 {
     public class KrediKarti : IOdeme
     {
-        public string Ode(string tutar)
+        public string Ode(double tutar)
         {
             return "Kredi kartı ile " + tutar + " ödendi.";
         }

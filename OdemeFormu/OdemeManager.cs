@@ -8,13 +8,13 @@ namespace OdemeFormu
 {
     public class OdemeManager
     {
-        IOdeme iOdeme;
+        public IOdeme iOdeme;
         public OdemeManager(IOdeme iOdeme)
         {
             this.iOdeme = iOdeme;
         }
 
-        public string Ode(string tutar)
+        public string Ode(double tutar)
         {
             return iOdeme.Ode(tutar);
         }
