@@ -29,5 +29,28 @@ namespace CodeFirst.Controllers
             _context.SaveChanges();
             return newBook;
         }
+
+        [HttpPut]
+        public Book UpdateBook(Book newBook)
+        {
+            _context.Book.Update(newBook);
+            _context.SaveChanges();
+            return newBook;
+        }
+
+        [HttpDelete("{id}")]
+        public void DeleteBook(int id)
+        {
+            var deletedBook = _context.Book.Find(id);
+            _context.Book.Remove(deletedBook);
+            _context.SaveChanges();
+        }
+
+        [HttpGet("{id}")]
+        public Book GetBookDetails(int id)
+        {
+            Book details = _context.Book.Find(id);
+            return details;
+        }
     }
 }
